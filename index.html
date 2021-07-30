@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <link rel="stylesheet" href="owl.carousel.css">
+
+    <script src="/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $("#owl-demo").owlCarousel({
+                items: 4,
+                lazyLoad: true,
+                autoPlay: true,
+                navigation: true,
+                navigationText: ["", ""],
+                rewindNav: false,
+                scrollPerPage: false,
+                pagination: false,
+                paginationNumbers: false,
+            });
+
+        });
+    </script>
+
+    <style>
+        .btn-group .button {
+            background-color: #080808;
+            /* Green */
+            border: 1px solid rgb(141, 150, 141);
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            /* float: left; */
+        }
+        
+        .btn-group .button:not(:last-child) {
+            border-right: none;
+            /* Prevent double borders */
+        }
+        
+        .btn-group .button:hover {
+            background-color: #e40808;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-image: url(/image/bg.png);">
+        <nav class="container navbar   navbar-dark">
+            <br>
+            <h1><a href="index.html" class="navbar-brand" style="font-size: 40px; color: black;">WELCOME ALUMNUS AND ALUMNA
+        </a></h1>
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto ">
+
+            </ul>
+            <div>
+
+                <form class="d-flex ">
+                    <input style="padding: 10px; " type="text" class="text" value="Enter text here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter text here';}">
+                    <input style="padding: 10px; color: white; background-color: black;" type="submit" value="search">
+                </form>
+            </div>
+
+
+            <div class="btn-group ">
+                <a href="index.html"> <button class="button ">Home</button></a>
+                <a href="technology.html"> <button class="button"> About us</button></a>
+                <a href="about.html"><button class="button" >Portfolio</button></a>
+                <a href="blog.html"> <button class="button" href="blog.html">Famous Alumni</button></a>
+                <a href="blog.html"><button class="button" >  History</button></a>
+                <a href="contact.html"><button class="button" > Contact</button></a>
+
+            </div>
+            <div class="soc_icons navbar-expand-sm navbar-right ">
+                <ul class="list-unstyled text-center">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- <div class="container">
+            <div class="row h_menu">
+                <nav class="navbar navbar-default navbar-left" role="navigation">
+                   
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+                   
+                    <div class="collapse navbar-collapse float-left " id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="technology.html">About us</a></li>
+                            <li><a href="about.html">Portfolio</a></li>
+                            <li><a href="blog.html">Famous Alumni</a></li>
+                            <li><a href="blog.html">History</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                   
+                </nav>
+                <div class="soc_icons navbar-right">
+                    <ul class="list-unstyled text-center">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="./image/ma1.jpg" alt="img" style="width:100%; height: 70vh;">
+                    <div class="carousel-caption">
+                        <h2 style="color: white">Alumni Portal </h2>
+                        <p style="color: white; size:16px">Professor Slughorn has benifitted immensely from his students<span class="hide_text"> There is no reason why other students should not use this advantage to have some influence over the Muggle and magical population.</span></p>
+                        <h3 class="da-link"><a href="about.html" class="fa-btn btn-1 btn-1e">Connect Yourself</a></h3>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./image/ma1.jpg" alt="Chicago" style="width:100%; height: 70vh;">
+                    <div class="carousel-caption">
+                        <h2 style="color: white">Community</h2>
+                        <p style="color: white">Visit your profile, join a group, see class notes, volunteer for a cause and much more<span class="hide_text"> See more about Careers, Alumni Services, Clubs and more.</span></p>
+                        <h3 class="da-link"><a href="#" class="fa-btn btn-1 btn-1e">Join Community</a></h3>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./image/ma1.jpg" alt="New York" style="width:100%; height: 70vh;">
+                    <div class="carousel-caption">
+                        <h2 style="color: white">Programs and Events</h2>
+                        <p style="color: white">Enjoy the music of Harry Potter in concert. Attend a Harry Potter festival.<span class="hide_text"> </span>Discover â€œBreakfast at Hogwartsâ€ or â€œHogwarts in the Snow or Visit the School in the Scottish Highlands</p>
+                        <h3 class="da-link"><a href="#" class="fa-btn btn-1 btn-1e">Participate</a></h3>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./image/ma1.jpg" alt="New York" style="width:100%; height: 70vh;">
+                    <div class="carousel-caption">
+                        <h2 style="color: white">School</h2>
+                        <p style="color: white">Hogwarts School of Witchcraft and Wizardry, commonly shortened to Hogwarts, is a fictional British school of magic for students aged eleven to eighteen,<span class="hide_text">  and is the primary setting for the first six books in J.K. Rowling's Harry Potter series.</span></p>
+                        <h3 class="da-link"><a href="#" class="fa-btn btn-1 btn-1e">Visit School</a></h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="main_bg">
+            <!-- start main -->
+            <div class="container">
+                <div class="main row">
+                    <div class="col-md-3 images_1_of_4 text-center">
+                        <span class="bg"><i class="fa fa-globe"></i></span>
+                        <h4><a href="#">School </a></h4>
+                        <p class="para"><i>"Help will be given to everybody who calls for it in Hogwarts."</i> - Albus Dumbledore </p>
+                        <a href="about.html" class="fa-btn btn-1 btn-1e">read more</a>
+                    </div>
+                    <div class="col-md-3 images_1_of_4 bg1 text-center">
+                        <span class="bg"><i class="fa fa-laptop"></i></span>
+                        <h4><a href="#">Forum</a></h4>
+                        <p class="para">See what your fellow Alumnis are talking about here</p>
+                        <a href="forum.html" class="fa-btn btn-1 btn-1e">Forum</a>
+                    </div>
+                    <div class="col-md-3 images_1_of_4 bg1 text-center">
+                        <span class="bg"><i class="fa fa-cog"></i></span>
+                        <h4><a href="#">Feedback</a></h4>
+                        <p class="para">Help the uni improve itself and achieve greater magical heights.</p>
+                        <a href="#" class="fa-btn btn-1 btn-1e">Give your Feedback</a>
+                    </div>
+                    <div class="col-md-3 images_1_of_4 bg1 text-center">
+                        <span class="bg"><i class="fa fa-shield"></i> </span>
+                        <h4><a href="#">Register</a></h4>
+                        <p class="para">Just graduated from the school? Get your Almuni pass here.</p>
+                        <a href="admission.html" class="fa-btn btn-1 btn-1e">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end main -->
+        <div class="main_btm">
+            <!-- start main_btm -->
+            <div class="container">
+                <div class="main row">
+                    <div class="col-md-6 content_left">
+                        <img src="./image/1.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 content_right">
+                        <h4>Importance of <span>Alumni  </span>Networks.</h4>
+                        <p class="para">Today, alumni relations is an important part of an institution's advancement activities for many reasons: Alumni are an institution's most loyal supporters. ... They take their knowledge of your institution to their hometowns and
+                            countries and into their professional and social networks </p>
+
+                    </div>
+                </div>
+                <!----start-img-cursual---->
+                <div id="owl-demo" class="owl-carousel text-center">
+                    <div class="item">
+                        <div class="cau_left">
+
+                        </div>
+                        <div class="cau_left">
+                            <h4><a href="#">Albus Dumbledore</a></h4>
+                            <p>
+                                Professor Albus Percival Wulfric Brian Dumbledore[1] is a fictional character in J. K. Rowling's Harry Potter series. For most of the series, he is the headmaster of the wizarding school Hogwarts. As part of his backstory, it is revealed that he is the
+                                founder and leader of the Order of the Phoenix, an organisation dedicated to fighting Lord Voldemort
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="cau_left">
+
+                        </div>
+                        <div class="cau_left">
+                            <h4><a href="#">Sirius Black</a></h4>
+                            <p>
+                                Sirius Black (3 November,[9] 1959[10] â€“ 18 June, 1996[4]), also known as Padfoot or Snuffles (in his Animagus form) was a pure-blood wizard, the older son of Orion and Walburga Black, and the brother of Regulus Black.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="cau_left">
+
+                        </div>
+                        <div class="cau_left">
+                            <h4><a href="#">Newt Scamander</a></h4>
+                            <p>
+                                Newton Artemis[15] Fido[16] "Newt" Scamander, O.M. (Second Class), (b. 24 February[1], 1897[2]) was a famed Magizoologist and author of Fantastic Beasts and Where to Find Them. Early in life Scamander developed an interest in magical Creatures, influenced
+                                by his mother's breeding of hippogriffs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="cau_left">
+
+                        </div>
+                        <div class="cau_left">
+                            <h4><a href="#">Minerva McGonagall</a></h4>
+                            <p>
+                                Professor Minerva McGonagall, O.M. (First Class),[11] (b. 4 October,[1] 1935[2]) was a half-blood witch, the only daughter of Muggle Robert McGonagall and witch Isobel Ross. Minerva was a registered Animagus who attended Hogwarts School of Witchcraft
+                                and Wizardry from 1947-1954 and was Sorted into Gryffindor House (but it took the sorting hat 5 Â½ minutes to decide if she was Gryffindor or Ravenclaw, therefore making her a Hatstall).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="cau_left">
+
+                        </div>
+                        <div class="cau_left">
+                            <h4><a href="#">Severus Snape</a></h4>
+                            <p>
+                                Professor Severus Snape (9 January, 1960[1] â€“ 2 May, 1998[2]) was a half-blood[3] wizard serving as Potions Master (1981-1996), Defence Against the Dark Arts professor (1996-1997), and Headmaster (1997-1998) of the Hogwarts School of Witchcraft and
+                                Wizardry as well as a member of the Order of the Phoenix and a Death Eater.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="cau_left">
+
+                        </div>
+                        <div class="cau_left">
+                            <h4><a href="#">Draco Malfoy</a></h4>
+                            <p>
+                                Draco Lucius[8] Malfoy (b. 5 June, 1980) was a pure-blood wizard and the only son of Lucius and Narcissa Malfoy (nÃ©e Black).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="cau_left">
+
+                        </div>
+                        <div class="cau_left">
+                            <h4><a href="#">Hermione Granger</a></h4>
+                            <p>
+                                Minister Hermione Jean[18] Granger (b. 19 September, 1979[1]) was a Muggle-born[19] witch born to Mr and Mrs Granger, both dentists. Hermione possessed a brilliant academic mind, and proved to be a gifted student in almost every subject that she studied.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="cau_left">
+
+                        </div>
+                        <div class="cau_left">
+                            <h4><a href="#">Remus Lupin</a></h4>
+                            <p>
+                                Professor Remus John[3] Lupin, O.M. (First Class), (10 March, 1960 â€“ 2 May, 1998), also known as Moony, was a half-blood wizard and the only son of Lyall and Hope Lupin (nÃ©e Howell).
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="cau_left">
+
+                        </div>
+                        <div class="cau_left">
+                            <h4><a href="#">Filius Flitwick</a></h4>
+                            <p>
+                                Professor Filius Flitwick (b. 17 October[1] 1958 or earlier[3]) was a part-goblin, part-wizard[10] who attended Hogwarts School of Witchcraft and Wizardry and was sorted into Ravenclaw House,[11] being an intelligent young man and a model student.[12]
+                                Some time after his graduation, Flitwick returned to Hogwarts and became the Charms Master, as well as the Head of Ravenclaw House
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="cau_left">
+
+                        </div>
+                        <div class="cau_left">
+                            <h4><a href="#">Tom Marvolo Riddle</a></h4>
+                            <p>
+                                Tom Marvolo Riddle (31 December, 1926[11] â€“ 2 May, 1998), later known as Lord Voldemort or alternatively as You-Know-Who, He-Who-Must-Not-Be-Named, or the Dark Lord, was a half-blood wizard considered to have been the most powerful and dangerous dark
+                                wizard of all time.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!----//End-img-cursual---->
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container " style="text-align: center;">
+        <div class="row  footer">
+            <div class="copy text-center">
+                <p class="link"><span>&#169; All rights reserved | Design by&nbsp; Bikash Shaw</span></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+
+</html>
